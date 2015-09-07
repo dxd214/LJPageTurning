@@ -14,6 +14,8 @@
 		BC35B6BD1B6C5AD500DE2D4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC35B6BC1B6C5AD500DE2D4D /* Images.xcassets */; };
 		BC35B6C01B6C5AD500DE2D4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC35B6BE1B6C5AD500DE2D4D /* LaunchScreen.xib */; };
 		BC35B6CC1B6C5AD500DE2D4D /* LJPageTurningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC35B6CB1B6C5AD500DE2D4D /* LJPageTurningTests.m */; };
+		BC35B6D71B6C5B1600DE2D4D /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC35B6D61B6C5B1600DE2D4D /* HeadView.m */; };
+		BC35B6DA1B6C99EE00DE2D4D /* LJCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC35B6D91B6C99ED00DE2D4D /* LJCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		BC35B6C51B6C5AD500DE2D4D /* LJPageTurningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJPageTurningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC35B6CA1B6C5AD500DE2D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC35B6CB1B6C5AD500DE2D4D /* LJPageTurningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJPageTurningTests.m; sourceTree = "<group>"; };
+		BC35B6D51B6C5B1600DE2D4D /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		BC35B6D61B6C5B1600DE2D4D /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		BC35B6D81B6C99ED00DE2D4D /* LJCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCollectionViewController.h; sourceTree = "<group>"; };
+		BC35B6D91B6C99ED00DE2D4D /* LJCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		BC35B6AE1B6C5AD500DE2D4D /* LJPageTurning */ = {
 			isa = PBXGroup;
 			children = (
+				BC35B6D51B6C5B1600DE2D4D /* HeadView.h */,
+				BC35B6D61B6C5B1600DE2D4D /* HeadView.m */,
+				BC35B6D81B6C99ED00DE2D4D /* LJCollectionViewController.h */,
+				BC35B6D91B6C99ED00DE2D4D /* LJCollectionViewController.m */,
 				BC35B6B31B6C5AD500DE2D4D /* AppDelegate.h */,
 				BC35B6B41B6C5AD500DE2D4D /* AppDelegate.m */,
 				BC35B6B61B6C5AD500DE2D4D /* ViewController.h */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC35B6B81B6C5AD500DE2D4D /* ViewController.m in Sources */,
+				BC35B6DA1B6C99EE00DE2D4D /* LJCollectionViewController.m in Sources */,
 				BC35B6B51B6C5AD500DE2D4D /* AppDelegate.m in Sources */,
+				BC35B6D71B6C5B1600DE2D4D /* HeadView.m in Sources */,
 				BC35B6B21B6C5AD500DE2D4D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
